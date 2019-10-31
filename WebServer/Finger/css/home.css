@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c5b70;
+}
+h1{
+    color:#ffffff ;
+    font-family: sans-serif;
+}
+h2{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+h4{
+    color: yellow;
+    font-family: sans-serif;
+}
+span{
+    color: #14e330;
+    text-transform: uppercase;
+}
+.head{
+    text-align: center;
+    background:url(img/5.jpg);
+    background-size: 100%;
+    margin: 0 auto;
+    padding: 15px 0px 15px 0px;
+    position: relative;
+    width: 100%;
+}
+.head img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     position: relative;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+}
+.nav{
+     background-color: #000;
+     padding: 3px 0px;
+     margin: 0;
+     width: 100%;
+     text-align: right;
+}
+.nav ul{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+}
+.nav li{
+    display: inline-block;
+    padding:0 10px 0 10px;
+
+}
+.nav ul li a{
+	color: #fff;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.nav a:hover,
+.nav a:focus {
+      background: #82B1FF;
+      color: #000;
+}
+#rtable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 ;
+    border: 5px solid;
+}
+
+#rtable td, #rtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+
+#rtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00A8A9;
+    color: white;
+}
+#rtable .att{
+   width: 100px;
+}
+.foot{
+   text-align: center;
+   background-color: #1d211e;
+   color: #00ff40;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-family: sans-serif;
+   letter-spacing: 2px;
+   font-size: 13px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+.foot span{
+   color: yellow;
+   font-size: 16px;
+   font-weight: bold;
+}
