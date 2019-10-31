@@ -12,4 +12,4 @@ Attendance System Using Biometric Finger Print Sensor and IOT
 * CSS
 * SQL
 
-![Test Image 1](ss.jpg)
+![Screenshot](ss.jpg)
