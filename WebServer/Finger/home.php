@@ -26,7 +26,7 @@ if (!isset($_SESSION['loggedin'])) {
   ?>
 <div class="head">
     <h1>Mandalay Technological University</h1>
-  <h2>Department of <span>CEIT</span></h2>
+  <h2>Department of <span>MECHATRONICS</span></h2>
   <h4>Attendance System Using Biometric Finger Print Sensor</h4>
 </div>
 <div class="nav">
