@@ -13,3 +13,4 @@ Attendance System Using Biometric Finger Print Sensor and IOT
 * SQL
 ## Screenshots
 ![Screenshot](ss1.JPG)
+![Screenshot](ss2.JPG)
