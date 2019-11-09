@@ -1,15 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h> 
-#include <ESP8266WebServer.h>
 #include <ESP8266HTTPClient.h>
 #include <Adafruit_Fingerprint.h>
 #include <LiquidCrystal_I2C.h>
 
-const char *ssid = "cwiz";  
+const char *ssid = "nameofwifihotspot";  
 const char *password = "password";
 const char *host = "http://www.asyoulike.com";
 
-int nam;
 String rollno,postData;
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
@@ -83,7 +81,6 @@ void datapost(){
   delay(2000);
   http.end();  //Close connection
   
-  //delay(5000);  //Post Data at every 5 seconds
 }
 int getStudentfingerID(){
   // Will return FingerprintID in int format
